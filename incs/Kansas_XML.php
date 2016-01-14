@@ -1,8 +1,46 @@
 <?php
-  /*
-	Protocol - Kansas XML
+/**
+* Kansas State Library User Authentication
+*
+* This library provides a method of communicating with the Kansas 
+* State Library's authentication system for authenticating users 
+* to an external system.
+*
+* PHP version 5
+*
+* License:
+*
+* Copyright (c) 2015 Califa Library Group
+*
+* Permission is hereby granted, free of charge, to any person 
+* obtaining a copy of this software and associated documentation 
+* files (the "Software"), to deal in the Software without 
+* restriction, including without limitation the rights to use, 
+* copy, modify, merge, publish, distribute, sublicense, and/or 
+* sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+
+* The above copyright notice and this permission notice shall be 
+* included in all copies or substantial portions of the Software.
+
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+* EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+* OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+* NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+* HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+* OTHER DEALINGS IN THE SOFTWARE.
+*
+* @package
+* @author Laura McKeegan <enkisys@gmail.com>
+* @license http://opensource.org/licenses/MIT MIT
+* @copyright Califa Library Group 2015
+* @version Version: 0.1.0
+* @link https://github.com/enkisys/authentication/blob/master/incs/Kansas_XML.php
 */
-	function Kansas_XML ($data=array()) {
+
+function Kansas_XML ($data=array()) {
 		
 		
 $hostname = $data['orgConfigs']['authentication_ip'];
