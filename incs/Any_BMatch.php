@@ -1,6 +1,6 @@
 <?php
 /**
-* Barcode Match User Authentication
+* Barcode Match User Authentication 
 *
 * This library provides a method of validating patron barcodes 
 * when not able to authenticate against an ILS.

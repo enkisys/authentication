@@ -1,6 +1,6 @@
 <?php
 /**
-* Horizon SIP2 User Authentication
+* Horizon SIP2 User Authentication 
 *
 * This library provides a method of communicating with a library 
 * authentication system for authenticating users to an external system.

@@ -1,6 +1,6 @@
 <?php
 /**
-* Enkitools Library
+* Enkitools Library 
 *
 * This library provides functions for the authentication scripts.
 *

@@ -1,6 +1,6 @@
 <?php
 /**
-* III PAPI User Authentication
+* III PAPI User Authentication 
 *
 * This library provides a method of communicating with a library 
 * authentication system for authenticating users to an external system.

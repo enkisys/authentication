@@ -1,5 +1,5 @@
 <?php
-/**
+/** 
 * Evergreen SIP2 User Authentication
 *
 * This library provides a method of communicating with a library 
